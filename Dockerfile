@@ -12,5 +12,5 @@ RUN gradle build --no-daemon
 FROM openjdk:21-jdk-slim
 WORKDIR /app
 COPY --from=builder /app/build/libs/*.jar discografia-1.jar
-EXPOSE 8080
+EXPOSE 443
 CMD ["java", "-jar", "discografia-1.jar"]
