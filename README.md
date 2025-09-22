@@ -1,2 +1,2 @@
 # iplacex-discografica-api-joaquin_villalon
-REST API Spring para despliegue en Render
+API REST Spring para administración de discografías favoritas de empleados de IPLACEX
